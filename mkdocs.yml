@@ -1,0 +1,82 @@
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - content.code.copy
+    - content.code.annotate
+#    - navigation.instant
+#    - navigation.instant.progress
+#    - navigation.tracking
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.path
+#    - navigation.top
+#    - navigation.sections
+#    - navigation.indexes
+#    - navigation.expand
+    - toc.follow
+#    - toc.integrate
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+site_name: Imprompter
+docs_dir: docs
+extra_css:
+  - extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      pygments_lang_class: true
+      line_spans: __span
+#      auto_title: true
+#      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+    - mkdocs-video
+#  - include-markdown
+#not_in_nav: /generated/**/*.md
+#nav:
+#  - Home: index.md
+#  - Getting started:
+#      - Deployment: deployment.md
+#      - Initialization: init.md
+#      - Configuration:
+#          - config/index.md
+#          - Database: config/db.md
+#          - Authorization: config/auth.md
+#          - Backend: config/backend.md
+#  - Tutorials:
+#      - Tutorial@BuildSys24!: tutorial/buildsys2024.md
+#      - Write a Brick based building app: tutorial/write_an_app.md
