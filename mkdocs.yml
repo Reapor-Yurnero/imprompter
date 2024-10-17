@@ -80,3 +80,7 @@ plugins:
 #  - Tutorials:
 #      - Tutorial@BuildSys24!: tutorial/buildsys2024.md
 #      - Write a Brick based building app: tutorial/write_an_app.md
+extra:
+  analytics:
+    provider: google
+    property: G-KENNRM0G76
