@@ -178,7 +178,7 @@ Alternatively, the adversarial prompt can be input after one or several turns of
 
 ## Adversarial Prompts
 
-Our adversarial prompts show consistently high attack success rate and good quality of PII exfiltration throughout various unseen user-agent conversations. Find more details about our evaluation and results in the [paper](). 
+Our adversarial prompts show consistently high attack success rate and good quality of PII exfiltration throughout various unseen user-agent conversations. Find more details about our evaluation and results in the [paper](./paper.pdf). 
 
 ### PII Exfiltration
 
@@ -207,7 +207,7 @@ Another attack target, which is not shown above but discussed in the paper, is c
 
 ## Disclosure and Impact
 
-We initiated disclosure to Mistral and ChatGLM team on Sep 9, 2024, and Sep 18, 2024, respectively. Mistral security team members responded promptly and acknowledged the vulnerability as a **medium-severity issue**. They fixed the data exfiltration by disabling markdown rendering of external images on Sep 13, 2024. We confirmed that the fix works. ChatGLM security team has not responded to us despite multiple attempts through various channels.
+We initiated disclosure to Mistral and ChatGLM team on Sep 9, 2024, and Sep 18, 2024, respectively. Mistral security team members responded promptly and acknowledged the vulnerability as a **medium-severity issue**. They fixed the data exfiltration by disabling markdown rendering of external images on Sep 13, 2024 (find the acknowledgement in [Mistral changelog](https://docs.mistral.ai/getting-started/changelog/)). We confirmed that the fix works. ChatGLM security team has not responded to us despite multiple attempts through various channels.
 
 
 ## Citation
