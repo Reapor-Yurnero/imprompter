@@ -2,9 +2,9 @@
 
 This is the codebase of `imprompter`. It provides essential components to reproduce and test the attack presented in the [paper](https://arxiv.org/abs/2410.14923).  You may create your own attack on top of it as well.
 
-A video screencast showing how an attacker can exfiltrate the user's PII in real world LLM product ([Mistral LeChat](https://chat.mistral.ai/chat)) with our adversarial prompt:
+A screencast showing how an attacker can exfiltrate the user's PII in real world LLM product ([Mistral LeChat](https://chat.mistral.ai/chat)) with our adversarial prompt:
 
-![video](docs/mistral_pii_demo.mp4)
+![img](docs/attack_screenshot_annotated.png)
 
 More video demos can be found on our [website](https://imprompter.ai).
 
