@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="center">
+    <b>Imprompter: Tricking LLM Agents into Improper Tool Use</b>
+</h1>
+<h4 class="center" style="margin-top: -1rem;">
+    <a href="https://xhfu.me/">Xiaohan Fu</a><sup>1</sup>,
+    <a href="mailto:shl060@ucsd.edu">Shuheng Li</a><sup>1</sup>,
+    <a href="https://zihanwangki.github.io/">Zihan Wang</a><sup>1</sup>,
+    <a href="https://tc-imba.github.io/">Yihao Liu</a><sup>2</sup>,
+    <a href="https://x.com/guptaucsd">Rajesh Gupta</a><sup>1</sup>,
+    <a href="https://x.com/bergkirkpatrick">Taylor Berg-Kirkpatrick</a><sup>1</sup>,
+    <a href="https://x.com/EarlenceF">Earlence Fernandes</a><sup>1</sup>
+</h4>
+
+<p class="center" style="margin-top: -0.5rem;">
+    <sup>1</sup>University of California, San Diego,
+    <sup>2</sup>Nanyang Technological University
+</p>
+
+<div class="flex-container">
+    <a href="https://arxiv.org/abs/2410.14923" class="center" target="_blank">
+        <div class="twemoji title-icon">
+            {% include ".icons/fontawesome/regular/file-pdf.svg" %}
+        </div>
+        <div class="title-text">Paper</div>
+    </a>
+    <a href="https://github.com/Reapor-Yurnero/imprompter" class="center" target="_blank">
+        <div class="twemoji title-icon">
+            {% include ".icons/fontawesome/brands/github.svg" %}
+        </div>
+        <div class="title-text">Code</div>
+    </a>
+</div>
+
+
+{{ super() }}
+
+{% endblock %}
+
+

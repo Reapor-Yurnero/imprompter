@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.title-icon {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.title-text {
+    font-size: 1.25rem;
+}
+
+.md-typeset pre > code {
+    max-height: var(--md-codeblock-height, 23rem); /* 5rem will be used as a fallback value */
+    white-space : pre-wrap !important;
+    word-break: break-word;
+}
