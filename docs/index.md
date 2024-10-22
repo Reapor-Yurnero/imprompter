@@ -29,7 +29,7 @@ We present various demos and textual adversarial prompts on this page. For full 
 ## How to Reproduce
 
 !!! warning "Expected Behavior"
-    After we disclosed this vunerability to Mistral AI in September 2024, their security team decided to disable image markdown rendering features. Now you will not see the same behavior in the video demo but an image placeholder as in the conversation window. Find more details in the [Disclosure section](#disclosure-and-impact). The ChatGLM security team has not responded or addressed such issue. You should be able to reproduce the exact bahavior there.
+    After we disclosed this vunerability to Mistral AI in September 2024, their security team decided to disable image markdown rendering features. Now you will not see the same behavior in the video demo but an image placeholder as in the conversation window. Find more details in the [Disclosure section](#disclosure-and-impact). The ChatGLM security team has not yet addressed such issue as of Oct 21 2024. You should be able to reproduce the exact bahavior there.
 
 ### Scenario 1
 
