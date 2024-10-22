@@ -1,0 +1,5 @@
+{
+    "glm4": "/data/models/hf/glm-4-9b-chat",
+    "mistral-nemo": "/data/models/hf/Mistral-Nemo-Instruct-2407",
+    "llama-3.1-70b": "/data/models/hf/Meta-Llama-3.1-70B-Instruct"
+} 

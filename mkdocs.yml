@@ -80,6 +80,8 @@ plugins:
 #  - Tutorials:
 #      - Tutorial@BuildSys24!: tutorial/buildsys2024.md
 #      - Write a Brick based building app: tutorial/write_an_app.md
+repo_url: https://github.com/Reapor-Yurnero/imprompter
+repo_name: Reapor-Yurnero/imprompter
 extra:
   analytics:
     provider: google
