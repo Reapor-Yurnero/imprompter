@@ -6,7 +6,7 @@ A screencast showing how an attacker can exfiltrate the user's PII in real world
 
 ![img](docs/attack_screenshot_annotated.png)
 
-More video demos can be found on our [website](https://imprompter.ai).
+More video demos can be found on our [website](https://imprompter.ai). **Meanwhile, big thanks to Matt Burges from WIRED and Simon Willison for writing cool stories ([WIRED](https://www.wired.com/story/ai-imprompter-malware-llm/), [Simon's Blog](https://simonwillison.net/2024/Oct/22/imprompter/)) covering this project!**
 
 ## Setup
 
